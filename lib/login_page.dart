@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 
-
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
 
@@ -12,55 +11,56 @@ class _LoginPageState extends State<LoginPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:AppBar(title: Text("Login Page"),),
+      appBar: AppBar(
+        title: Text("Login Page"),
+      ),
       body: Container(
         child: Column(children: [
 
+          SizedBox(height: 20,),
 
-            Container(
-              width: 100,
-              height: 100,
-              color: Colors.amber,
-            ),
-
+          Row(
+            children: [
+               Text("First Row"),
               Container(
-              width: 100,
-              height: 100,
-              color: Colors.purple,
-            ),
-          
-
-           Container(
-              width: 100,
-              height: 100,
-              decoration: BoxDecoration(
+                width: 50,
+                height: 50,
+                color: Colors.red,
+              ),
+              Container(
+                width: 50,
+                height: 50,
                 color: Colors.green,
-                borderRadius: BorderRadius.circular(360)
               ),
-            ),
-
-
               Container(
-              width: 300,
-              height: 150,
-              padding: EdgeInsets.only(left:30,top: 20),
-              decoration: BoxDecoration(
-                color: Colors.white,
-                borderRadius: BorderRadius.circular(20),
-                border: Border.all(width: 10,color: Colors.green)
+                width: 50,
+                height: 50,
+                color: Colors.orange,
               ),
-              child: Container(
-                width: 20,
-                height: 20,
+            ],
+          ),
+
+          SizedBox(height: 20,),
+
+          Row(
+            children: [
+              Text("Second Row"),
+              Container(
+                width: 50,
+                height: 50,
+                color: Colors.blue,
+              ),
+              Container(
+                width: 50,
+                height: 50,
                 color: Colors.yellow,
               ),
-            ),
+            ],
+          ),
 
-
-
+          
         ]),
       ),
     );
   }
 }
-
