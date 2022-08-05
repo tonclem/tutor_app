@@ -7,60 +7,13 @@ class LoginPage extends StatefulWidget {
   State<LoginPage> createState() => _LoginPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("Login Page"),
-      ),
-      body: Container(
-        child: Column(children: [
 
-          SizedBox(height: 20,),
+class _LoginPageState extends State<LoginPage>{
 
-          Row(
-            children: [
-               Text("First Row"),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.red,
-              ),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.green,
-              ),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.orange,
-              ),
-            ],
-          ),
-
-          SizedBox(height: 20,),
-
-          Row(
-            children: [
-              Text("Second Row"),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.blue,
-              ),
-              Container(
-                width: 50,
-                height: 50,
-                color: Colors.yellow,
-              ),
-            ],
-          ),
-
-          
-        ]),
-      ),
-    );
-  }
+    @override
+    Widget build(BuildContext context){
+      return Scaffold(
+        
+      );
+    }
 }
