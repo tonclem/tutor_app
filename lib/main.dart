@@ -1,6 +1,7 @@
 import 'package:bank_app/profile_page.dart';
 import 'package:flutter/material.dart';
 import 'login_page.dart';
+import 'profile_page_3.dart';
 import 'signup_page.dart';
 
 void main() {
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
 
         primarySwatch: Colors.blue,
       ),
-      home: const ProfilePage(),
+      home: const ProfilePage3(),
     );
   }
   

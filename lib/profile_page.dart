@@ -60,7 +60,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   decoration:
                       BoxDecoration(color: Color.fromARGB(255, 6, 25, 41),
                       shape: BoxShape.circle),
-                      child: Icon(Icons.wallet,color: Colors.white,),
+                      child: Icon(Icons.wallet_giftcard,color: Colors.white,),
                 ),
                 SizedBox(width: 15,),
                  Text("My Premium",style: TextStyle(color: Colors.black,fontSize: 18,fontWeight: FontWeight.bold),),
